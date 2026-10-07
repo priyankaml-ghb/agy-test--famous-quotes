@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python byte code and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask & environment variables
+instance/
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
